@@ -1,0 +1,1 @@
+# syncinterns-quiz-app-quizzy
