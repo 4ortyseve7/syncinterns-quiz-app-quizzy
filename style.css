@@ -1,0 +1,153 @@
+/* 
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Martian Mono', monospace;
+*/
+*{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+    overflow: hidden;
+    background-image: url('https://images.pexels.com/photos/7232493/pexels-photo-7232493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#homeBox{
+    height: 100vh;
+    overflow: hidden;
+}
+#Quizzy{
+    font-size: 400px;
+    text-align: right;
+    padding: 30px;
+    padding-top: 241px;
+    color: white;
+    text-shadow: 0 0 100px rgb(150, 150, 150);
+}
+#startQuizzy{
+    width: 100%;
+    padding: 30px;
+    padding-right: 100px;
+    border: 0px;
+    font-family: 'Martian Mono', monospace;
+    font-size: 50px;
+    text-align: right;
+    background-color: white;
+    color: black;
+}
+
+.mainBox{
+    height: 100vh;
+    padding-top: 12%;
+    display: none;    
+}
+.qBox{
+    width: 80%;
+    min-width: 550px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+}
+.optionBox{
+    width: 80%;
+    min-width: 550px;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.options{
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: left;
+}
+.options:hover{
+    background-color: rgb(120, 120, 120);
+    color: rgb(255, 255, 255);
+}
+.options:focus{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.detailsBox{
+    width: 80%;
+    min-width: 550px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    overflow: auto;
+}
+#confirm{
+    float: right;
+    width: 100px;   
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+#confirm:hover{
+    box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0); 
+}
+
+.endBox{
+    height: 100vh;
+    display: none;
+}
+#thankyou{
+    padding: 30px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    color: white;
+    text-shadow: 0 0 100px rgb(150, 150, 150);
+    font-family: 'Fasthand', cursive;
+    font-size: 250px;
+    text-align: left;
+}
+#scorepara{
+    padding: 40px; 
+    padding-top: 0px;
+    font-family: 'Martian Mono', monospace;
+    font-size: 50px;
+    text-align: left;   
+}
+#scoreval{
+    font-family: 'Martian Mono', monospace;
+}
+#retake{
+    width: 100%;
+    padding: 30px;
+    padding-left: 40px;
+    border: 0px;
+    background-color: white;
+    font-family: 'Martian Mono', monospace;
+    font-size: 50px;
+    text-align: left;
+}

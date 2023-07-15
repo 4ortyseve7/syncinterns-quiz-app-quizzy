@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy</title>
+    
+    
+    <!-- <link rel="icon" type="image/x-icon" href="./images/favicon.ico"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Belanosima&family=Changa&family=Fasthand&family=Martian+Mono:wght@100&family=Playfair+Display&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+<body>    
+    <div id="homeBox">
+        <p id="randomNumbers"></p>
+        <h1 id="Quizzy">
+            Quizzy
+        </h1>
+        <button id="startQuizzy" onclick="startquiz()">
+            Start
+        </button>
+    </div>
+
+    <div class="mainBox" id="mainBox">
+        <div class="qBox">
+            <p id="qString">Q. This is Question?</p>
+        </div>
+        <div class="optionBox">
+            <button id="option1" class="options" onclick="f(1)">A. optionA</button>
+            <button id="option2" class="options" onclick="f(2)">B. optionB</button>
+            <button id="option3" class="options" onclick="f(3)">C. optionC</button>
+            <button id="option4" class="options" onclick="f(4)">D. optionD</button>
+        </div>
+        <div class="detailsBox">
+            <p><span id="quesOutOf">0</span> of 5
+            <button id="confirm" onclick="confirm()">Confirm</button></p>
+        </div>
+    </div>
+    
+    <div class="endBox" id="endBox">
+        <h1 id="thankyou">
+            Thank You !
+        </h1>
+        <p id="scorepara">Final Score: <span id="scoreval">0</span> / 5</p>
+        <button id="retake" onclick="retakequiz()">Retake</button>
+    </div>
+
+</body>
+</html>
